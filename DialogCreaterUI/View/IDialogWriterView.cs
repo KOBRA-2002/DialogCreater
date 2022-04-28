@@ -7,8 +7,8 @@ namespace DialogCreaterUI.View
     interface IDialogWriterView : IView
     {
         void UpdateData();
-        void MoveLast();
+        void MoveToLast();
         void MoveNext();
-        void Save();
+        void ToSave();
     }
 }
